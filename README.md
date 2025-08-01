@@ -1,5 +1,14 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### 使用方法
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+```
+npm i # 安装包
+npm run dev
+```
+
+### 功能实现细节
+
+1. Search功能是在整个表中搜索，不受filter和sort的影响
+2. filter是全局筛选，sort是在筛选的基础上进行排序，如果不进行筛选直接排序，则对所有数据进行排序
+
